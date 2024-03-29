@@ -2,11 +2,11 @@
 var myImage = document.querySelector("img");
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute("src");
-    if (mySrc === "C:/Users/Даша/Desktop/сайт/images/арвен.png") {
-        myImage.setAttribute("src", "C:/Users/Даша/Desktop/сайт/images/арвенн.png");
+    if (mySrc === "images/арвен.png") {
+        myImage.setAttribute("src", "images/арвенн.png");
     }
     else {
-        myImage.setAttribute("src", "C:/Users/Даша/Desktop/сайт/images/арвен.png");
+        myImage.setAttribute("src", "images/арвен.png");
     }
 }
 
